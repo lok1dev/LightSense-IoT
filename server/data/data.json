@@ -1,0 +1,222 @@
+[
+  {
+    "date": "2023-11-05T09:06:07.175Z",
+    "lightLevel": 1015,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:06:03.031Z",
+    "lightLevel": 849,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:06:01.980Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:06:00.953Z",
+    "lightLevel": 880,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:05:49.509Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:05:03.676Z",
+    "lightLevel": 867,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:05:00.546Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:04:53.205Z",
+    "lightLevel": 878,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:04:51.144Z",
+    "lightLevel": 1014,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:04:49.060Z",
+    "lightLevel": 868,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:04:45.916Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:04:23.081Z",
+    "lightLevel": 811,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T09:03:21.918Z",
+    "lightLevel": 1023,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T09:03:19.868Z",
+    "lightLevel": 855,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T08:54:27.911Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T08:54:25.833Z",
+    "lightLevel": 796,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T08:54:22.655Z",
+    "lightLevel": 934,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T08:54:19.549Z",
+    "lightLevel": 833,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-05T08:54:17.497Z",
+    "lightLevel": 973,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-05T08:54:13.402Z",
+    "lightLevel": 825,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-04T00:38:49.583Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-11-04T00:38:47.510Z",
+    "lightLevel": 211,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-11-04T00:38:32.946Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:13:10.985Z",
+    "lightLevel": 757,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:13:08.874Z",
+    "lightLevel": 937,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:12:15.515Z",
+    "lightLevel": 758,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:12:13.394Z",
+    "lightLevel": 987,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:07:47.901Z",
+    "lightLevel": 747,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:07:42.583Z",
+    "lightLevel": 986,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:05:16.324Z",
+    "lightLevel": 758,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:05:12.927Z",
+    "lightLevel": 976,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:04:59.175Z",
+    "lightLevel": 747,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:04:47.629Z",
+    "lightLevel": 951,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:03:51.257Z",
+    "lightLevel": 758,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:03:50.192Z",
+    "lightLevel": 788,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:03:16.951Z",
+    "lightLevel": 760,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:03:15.917Z",
+    "lightLevel": 954,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:03:13.806Z",
+    "lightLevel": 976,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:03:12.715Z",
+    "lightLevel": 922,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:03:02.888Z",
+    "lightLevel": 821,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:03:01.804Z",
+    "lightLevel": 957,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:02:44.675Z",
+    "lightLevel": 1024,
+    "ledStatus": "on"
+  },
+  {
+    "date": "2023-10-31T09:02:43.587Z",
+    "lightLevel": 890,
+    "ledStatus": "off"
+  },
+  {
+    "date": "2023-10-31T09:02:30.932Z",
+    "lightLevel": 748,
+    "ledStatus": "off"
+  }
+]

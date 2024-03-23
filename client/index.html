@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>LED Control Panel</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>LED Control Panel</h1>
+      <div class="switch-container">
+        <div>
+          <label class="switch-autoMode">
+            <p>Auto Mode</p>
+            <input type="checkbox" id="autoSwitch" checked/>
+            <span class="slider"></span>
+          </label>
+
+          <label class="switch-led">
+            <p>Led Switch</p>
+            <input type="checkbox" id="ledSwitch" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="status-info">
+          <p id="ledStatus">LED is off</p>
+          <p id="lightLevel">Light Level: <span id="lightNum"></span></p>
+        </div>
+      </div>
+      <div class="logs-toggle">
+        <button id="toggleLogs">Toggle Logs</button>
+      </div>
+      <div id="logsContainer" class="logs-container active">
+        <div class="logs">
+          <h2>Logs</h2>
+          <table class="fixed_header">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Status LED</th>
+                <th>Light Level</th>
+              </tr>
+            </thead>
+            <tbody id="logTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

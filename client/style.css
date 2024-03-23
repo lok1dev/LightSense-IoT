@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+    margin: 0;
+}
+
+.container {
+    width: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.switch-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.switch-led, .switch-autoMode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.switch-led input, .switch-autoMode input {
+    display: none;
+}
+
+.switch-led p, .switch-autoMode p {
+    margin-right: 10px;
+}
+
+
+.slider {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: background-color 0.4s;
+    margin-right: 10px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.4s;
+    left: 2px;
+    top: 2px;
+}
+
+.switch-led input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+.switch-led input:checked + .slider:before, .switch-autoMode input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.switch-autoMode input:checked + .slider {
+    background-color: #ecaa1b;
+}
+
+.switch-led {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.switch-led.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.status-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 150px;
+}
+
+#ledStatus {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#lightLevel {
+    color: #4CAF50;
+    margin: 0;
+}
+
+.logs-toggle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#toggleLogs {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggleLogs:hover {
+    background-color: #45A049;
+}
+
+#logsContainer {
+    display: none;
+    padding: 10px;
+}
+
+#logsContainer.active {
+    display: block;
+    max-height: 360px;
+}
+
+.logs {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #4CAF50; 
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.fixed_header{
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 434px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.fixed_header thead {
+    background-color: #4CAF50;
+    color: white;
+    height: 30px;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 15px;
+  text-align: left;
+  width: 200px;
+}
+
+.fixed_header th:first-child, .fixed_header td:first-child{
+    width: 500px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #logsContainer.active {
+        max-height: 385px;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .container{
+        width: 350px;
+        margin-top: 0;
+    }
+
+    body{
+    height: 93vh
+    }
+
+    .fixed_header tbody{
+        height: 347px;
+      }
+
+    .fixed_header th, .fixed_header td {
+        padding: 10px;
+        text-align: left;
+        width: 200px;
+      }
+
+    .fixed_header th, .fixed_header td {
+        width: 100px;
+      }
+
+    .fixed_header th:first-child, .fixed_header td:first-child{
+        width: 120px;
+    }
+}

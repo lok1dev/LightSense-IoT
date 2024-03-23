@@ -1,0 +1,52 @@
+[
+  {
+    "ledStatus": "on",
+    "date": "2023-10-30T15:45:00.000Z",
+    "lightLevel": 30
+  },
+  {
+    "ledStatus": "on",
+    "date": "2023-10-30T14:30:00.000Z",
+    "lightLevel": 20
+  },
+  {
+    "ledStatus": "on",
+    "date": "2023-10-30T13:15:00.000Z",
+    "lightLevel": 45
+  },
+  {
+    "ledStatus": "on",
+    "date": "2023-10-30T12:00:00.000Z",
+    "lightLevel": 30
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:10:01.840Z",
+    "lightLevel": 80
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:09:56.788Z",
+    "lightLevel": 80
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:09:51.709Z",
+    "lightLevel": 70
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:09:46.667Z",
+    "lightLevel": 65
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:09:41.614Z",
+    "lightLevel": 65
+  },
+  {
+    "ledStatus": "off",
+    "date": "2023-10-30T10:09:36.545Z",
+    "lightLevel": 65
+  }
+]
